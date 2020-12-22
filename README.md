@@ -1,5 +1,5 @@
-# CodersCamp 2020 - Projekt HTML & CSS
-**CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
+# Kamila Grusza - Portfolio
+
 
 Gratulacje! 
 Skoro czytacie ten tekst, oznacza to, że dowiedliście swoich umiejętności ze znajomości HTML & CSS. 
