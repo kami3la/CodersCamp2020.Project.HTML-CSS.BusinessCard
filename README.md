@@ -1,12 +1,18 @@
 # Kamila Grusza - Portfolio
 
 ## Table of contents
-  
+ - About the project
+ - Technologies
+ - Setup
+ - Status
+ - Licence
+ - Author
+ 
 ## About the project
 The project was created as a part of CodersCamp course. 
 
 ## Technologies
-- HTML
+- HTML5
 - CSS
 
 ## Setup
