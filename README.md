@@ -14,4 +14,4 @@
 
 ## Licence 
 
-## Autor
+## Author
