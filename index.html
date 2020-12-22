@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CodersCamp | Projekt 1 - HTML i CSS</title>
     <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
-
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<p>CodersCamp - projekt 1. Tutaj możesz zacząć swoją zabawę!</p>
-<p>TEST commit</p>
+<div class="wrapper">
+<header class="main-header">
+	<nav class="flex-nav">
+		<ul>
+			<li><a href="#about-me">O mnie</a></li>
+			<li><a href="#my-hobbies">Moje hobby</a></li>
+			<li><a href="#my-travels">Podróże</a></li>
+			<li><a href="#contact">Kontakt</a></li>
+		</ul>
+	</nav>
+	<div class="welcome-text">
+		<h1>Witam!</h1>
+		Mam na imię Kamila, a to jest strona o mnie.
+	</div>
+</header>
+<div class="all-containers">
+	<div id="about-me" class="about-me">
+		<div class="title bigger-space"><h2>O mnie</h2></div>
+		<div class="container-grid">
+			<div class="container">
+				Pochodzę z Gorzowa Wielkopolskiego. Mam 22 lata. W tym roku ukończyłam studia pierwszego stopnia na UAM w Poznaniu na kierunku Pedagogika - specjalność Wychowanie Przedszkolne i Nauczanie Początkowe. Jednak w 2019 roku zaczęłam studiować drugi kierunek - Nauczanie Matematyki i Informatyki, gdzie rozpoczęła się moja przygoda z programowaniem.
+			</div>
+			<div class="my-photo">
+				<img src="photos/my-photo.jpg">
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div id="my-hobbies">
+		<div class="title"><h2>Moje hobby</h2></div>
+		<div class="container-grid">
+			<ul>
+				<li class="container"><h3 class="hobby-position-title">Siatkówka</h3><div>Uwielbiam gry drużynowe, a zwłaszcza siatkówkę. Trenowałam ją przez 6 lat, a zaczęłam w szkole podstawowej, gdy poszłam do klasy o profilu sportowym. Była to dla mnie zawsze duża zabawa i w dalszym ciagu, gdy tylko nadarzy się okazja, z przyjemnością gram z przyjaciółmi.</div></li>
+				<li class="container"><h3 class="hobby-position-title">Rośliny doniczkowe</h3><div>Moją kolejną pasją są rośliny doniczkowe. Uważam, że kolorowe doniczki z zadbanymi kwiatkami są niezbędnym elementem mojego domu. Niezmiernie sprawia mi radość, gdy jakaś roślinka wypuści nowego listka, bejbika, czy kwiatka.</div></li>
+				<li class="container"><h3 class="hobby-position-title">Podróżowanie</h3><div>Bardzo ważne jest dla mnie podróżowanie, zarówno po Polsce, jak i do innych krajów. Dlatego zawsze staram się, aby w wolnych chwilach zwiedzać nowe miejsca i odkrywać obce kultury. Po każdej odbytej podróży jestem bogatsza o nową wiedzę i doświadczenia, co sobie ogromnie cenię.</div></li>
+				<li class="container"><h3 class="hobby-position-title">Bilard</h3><div>Moim ostatnim zainteresowaniem, tym razem dosyć nietypowym, jest bilard. Wieczorna gra w bilarda jest dla mnie idealnie spędzonym czasem. Gram towarzysko już od wielu lat i nigdy mi się to nie znudzi.</div></li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div id="my-travels" class="my-travels">
+		<div class="title bigger-space"><h2>Podróże</h2>Uwielbiam podróżować i zwiedzać nowe miejsca. Wtedy zawsze staram się wykonać kilka pamiątkowych zdjęć.</div>
+		<div class="container-grid">
+			<div class="travel-photo">
+				<div>
+					<img src="photos/francja.jpg">
+				</div>
+				<p>Lazurowe Wybrzeże, Francja 2018</p>
+			</div>
+			<div class="travel-photo">
+				<div>
+					<img src="photos/granada.jpg">
+				</div>
+				<p>Granada, Hiszpania 2019</p>
+			</div>
+			<div class="travel-photo">
+				<div>
+					<img src="photos/portugalia.jpg">
+				</div>
+				<p>Aveiro, Portugalia 2019</p>
+			</div>
+			<div class="travel-photo">
+				<div>
+					<img src="photos/malta.jpg">
+				</div>
+				<p>Malta 2020</p>
+			</div>
+			<div class="travel-photo">
+				<div>
+					<img src="photos/polska.jpg">
+				</div>
+				<p>Polska 2020</p>
+			</div>
+			<div class="travel-photo">
+				<div>
+					<img src="photos/holandia.jpg">
+				</div>
+				<p>Leeuwarden, Holandia 2020</p>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div id="contact" class="form container-grid">
+		<div><h4>Jeśli masz jakieś pytania, uwagi, albo sugestie, daj mi znać.</h4></div>
+		<form action="mailto:kamila.grusza@tlen.pl" method="post" enctype="text/plain">
+			<label>Imię i nazwisko:</label><br>
+			<input type="text" name="name"><br><br>
+			<label>E-mail:</label><br>
+			<input type="email" name="email"><br><br>
+			<label>Wiadomość:</label><br>
+			<textarea name="text" id="big-form" cols="50" rows="5"></textarea><br><br>
+			<input type="submit" value="Send">
+		</form>
+	</div>
+</div>
+</div>
+
 </body>
 </html>
