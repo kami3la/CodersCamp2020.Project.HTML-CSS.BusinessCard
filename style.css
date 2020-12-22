@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.wrapper {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color: white;
+	font-size: 15px;
+}
+
+hr {
+	width: 85%;
+	margin-top: 50px;
+ }
+ 
+a {
+	color: black;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 2px;
+	background: rgba(191, 79, 97, 0.1);
+	padding: 10px 5px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+a:hover {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.main-header {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.flex-nav ul {
+	border: 1px solid black;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.flex-nav li {
+	flex: 1;
+}
+
+.welcome-text {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+
+.welcome-text h1 {
+	position: relative;
+	animation: heading;
+	animation-duration: 1s;
+}
+
+@keyframes heading {
+	0% {font-size: 100%;}
+	100% {font-size: 200%;}
+}
+
+.title {
+	text-align: center;
+	padding-top: 80px;
+}
+
+.bigger-space {
+	padding-bottom: 50px;
+}
+
+.my-photo>img {
+	max-width: 300px;
+}
+
+.container-grid, .container-grid ul {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.container, .container-grid li {
+	background: rgba(191, 79, 97, 0.1);
+	max-width: 400px;
+	margin: 60px;
+	padding: 30px;
+	border-radius: 4px;
+	display: flex;
+	text-align: justify;
+}
+
+.container-grid ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.container-grid li {
+	max-width: 550px;
+	padding: 50px;
+	flex-direction: column;
+}
+
+.about-me .container {
+	position: relative;
+	transform: translateY(-75px);
+}
+
+.container {
+	box-shadow: -10px 10px 3px rgba(0, 0, 0, 0.2);
+}
+	
+.hobby-position-title {
+	position: relative;
+	transform: translateY(-25px);
+}
+
+.travel-photo img {
+	max-width: 400px;
+}
+
+.my-travels {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.my-travels .container-grid>div {
+	padding-bottom: 50px;
+}
+
+.travel-photo {
+	display: inline-block;
+	text-align: center;
+	max-width: 460px;
+	padding: 25px;
+	position: relative;
+}
+
+.travel-photo p {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.travel-photo div:hover {
+	transform: scale(1.1);
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form>div {
+	margin-bottom: 50px;
+}
