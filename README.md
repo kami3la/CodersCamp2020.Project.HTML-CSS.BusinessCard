@@ -2,6 +2,11 @@
  
 ## Table of contents
 - [About the project](#about-the-project)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Status](#status)
+- [Licence](#licence)
+- [Author](#author)
 
 ## About the project
 The project was created as a part of CodersCamp course. 
