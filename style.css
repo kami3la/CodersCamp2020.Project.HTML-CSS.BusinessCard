@@ -25,7 +25,6 @@ a {
 	font-weight: 100;
 	font-size: 12px;
 	letter-spacing: 2px;
-	background: rgba(191, 79, 97, 0.1);
 	padding: 10px 5px;
 	display: inline-block;
 	width: 100%;
@@ -54,6 +53,7 @@ a:hover {
 
 .flex-nav li {
 	flex: 1;
+	background: rgba(191, 79, 97, 0.1);
 }
 
 .welcome-text {
