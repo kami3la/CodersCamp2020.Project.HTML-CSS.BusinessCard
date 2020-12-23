@@ -49,11 +49,12 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	
+	background: rgba(191, 79, 97, 0.1);
 }
 
 .flex-nav li {
 	flex: 1;
-	background: rgba(191, 79, 97, 0.1);
 }
 
 .welcome-text {
