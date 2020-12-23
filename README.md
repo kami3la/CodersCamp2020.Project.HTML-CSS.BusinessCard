@@ -1,5 +1,8 @@
 # Kamila Grusza - Portfolio
  
+## Table of contents
+- [About the project](#about-the-project)
+
 ## About the project
 The project was created as a part of CodersCamp course. 
 
